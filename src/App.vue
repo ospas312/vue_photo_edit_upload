@@ -1,20 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to My Vue.js App Photo_Edit_Uploader"/>
     <DrugDrop />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
-import DrugDrop from './components/DrugDrop.vue'
+import DrugDrop from './components/DrugDrop.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    DrugDrop
+    DrugDrop,
   }
 }
 </script>
