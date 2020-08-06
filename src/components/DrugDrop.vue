@@ -16,15 +16,17 @@
         <croppa v-model="myCroppa">
         </croppa > 
         <PopUp v-if="popUpOpened" />
+        <Firebase />
     </div>
 </template>
 
 <script>
 import PopUp from './PopUp.vue';
-
+import Firebase from './Firebase.vue';
     export default {
         components:{
             PopUp,
+            Firebase,
         },
         name: 'DrugDrop',  
         data(){
